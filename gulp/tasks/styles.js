@@ -26,6 +26,8 @@ export const styles = () => {
 			outputStyle: 'expanded'
 		}))
 
+		// .pipe(groupCssMediaQueries())
+
 		.pipe(all.plugins.if(
 			all.isBuild,
 			groupCssMediaQueries()

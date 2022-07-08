@@ -1,0 +1,25 @@
+// Container and Breakpoint
+@use 'sass:math';
+$containerWidth: 1280;
+$containerPadding: 40;
+$containerSidePadding: math.div($containerPadding, 2) + px;
+$breakPoint1450: 1449.98 + px;
+$breakPoint1200: 1199.98 + px;
+$breakPoint992: 991.98 + px;
+$breakPoint768: 767.98 + px;
+$breakPoint480: 479.98 + px;
+
+
+// Colors
+$colorMain: #001731;
+$colorAccent: #398BFF;
+$colorBackground: #FAFBFD;
+
+$fontColorMain: $colorMain;
+$fontColorAccent: #B0B0B0;
+$fontColorWite: #FCFDFE;
+
+// Fonts
+$fontsStack: Gilroy, Arial, 'Helvetica Neue', Helvetica, sans-serif;
+$fontMain: normal 500 16px/175% $fontsStack ;
+$fontAccent: Raleway;
