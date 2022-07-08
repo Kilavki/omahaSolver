@@ -1,6 +1,7 @@
 @import "fonts";
 @import "vars";
 @import "minMin";
+@import "header";
 
 // [class*="__container"] {
 // 	max-width: ($containerWidth + $containerPadding) + px;
@@ -28,8 +29,6 @@ body {
 	margin: 0 auto;
 	padding: 0 $containerSidePadding;
 
-	background-color: darken($colorBackground, 20);
-
 	@media (max-width: $breakPoint1450) {
 		max-width: 1200px;
 	}
@@ -49,4 +48,8 @@ body {
 	@media (max-width: $breakPoint480) {
 		max-width: none;
 	}
+}
+
+.main {
+	flex: 1 1 auto;
 }
