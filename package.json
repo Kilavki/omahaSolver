@@ -1,7 +1,7 @@
 {
-  "name": "MyGulp2022",
+  "name": "omaha-solver",
   "version": "1.0.0",
-  "description": "Сборка GULP на основе модулей",
+  "description": "",
   "main": "gulpfile.js",
   "type": "module",
   "scripts": {
@@ -13,17 +13,12 @@
     "start": "gulp start",
     "zip": "gulp deployZip --build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Kilavki/MyGulp2022.git"
-  },
   "keywords": [],
   "author": "kilavki",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Kilavki/MyGulp2022/issues"
   },
-  "homepage": "https://github.com/Kilavki/MyGulp2022#readme",
+  "homepage": "",
   "devDependencies": {
     "browser-sync": "^2.27.10",
     "del": "^6.1.1",
