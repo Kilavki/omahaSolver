@@ -1,0 +1,72 @@
+.header {
+	padding: 15px 16px 8px;
+	background-color: $colorMain;
+
+	&__wrapper {
+		display: flex;
+		align-items: center;
+	}
+	&__logo {
+		margin: 0 14px 0 0;
+		// width: 50px;
+		// height: 50px;
+		flex: 0 0 50px;
+		overflow: hidden;
+		// border: 1px solid #fff;
+		cursor: pointer;
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}
+	&__controls {
+		display: flex;
+		align-items: center;
+		margin-left: auto;
+		gap: 8px;
+	}
+	&__btn {
+		padding: 8px 12px;
+		font-weight: 600;
+		font-size: 13px;
+		line-height: 16px;
+		letter-spacing: 0.01em;
+		border: none;
+	}
+}
+
+.menu {
+	&__list {
+		display: flex;
+		gap: 24px;
+	}
+	&__item {
+	}
+	&__link {
+		font-weight: 600;
+		font-size: 17px;
+		line-height: 21px;
+		letter-spacing: 0.02em;
+		color: white;
+		opacity: .85;
+		transition: all 1s ease;
+		&:hover {
+			opacity: 1;
+			text-decoration: underline;
+		}
+	}
+}
+
+.select {
+	margin: 0 24px 0 0;
+	color: white;
+}
+
+.icon-menu {
+	display: none;
+}
+
+._active {
+}
+
+@import 'burger';

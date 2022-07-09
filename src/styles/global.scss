@@ -1,0 +1,23 @@
+// Buttons
+.button {
+	padding: 15px 22px;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 22px;
+	letter-spacing: 0.01em;
+	border-radius: 4px;
+	transition: all 1s ease;
+	&:hover {
+		color: $colorMain;
+		background: white;
+	}
+	&__primary {
+		color: white;
+		background: $colorAccent;
+		border: 3px solid rgba(44, 130, 253, 0.2);
+	}
+	&__secondary {
+		color: $colorAccent;
+		background: rgba(44, 130, 253, 0.15);
+	}
+}

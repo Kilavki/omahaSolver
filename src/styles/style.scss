@@ -2,6 +2,9 @@
 @import "vars";
 @import "minMin";
 
+@import "global";
+@import "header";
+
 // [class*="__container"] {
 // 	max-width: ($containerWidth + $containerPadding) + px;
 // 	margin: 0 auto;
@@ -28,8 +31,6 @@ body {
 	margin: 0 auto;
 	padding: 0 $containerSidePadding;
 
-	background-color: darken($colorBackground, 20);
-
 	@media (max-width: $breakPoint1450) {
 		max-width: 1200px;
 	}
@@ -49,4 +50,8 @@ body {
 	@media (max-width: $breakPoint480) {
 		max-width: none;
 	}
+}
+
+.main {
+	flex: 1 1 auto;
 }
