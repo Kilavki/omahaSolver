@@ -1,4 +1,4 @@
-// Buttons
+// buttons
 .button {
 	padding: 15px 22px;
 	font-weight: 700;
@@ -9,7 +9,7 @@
 	&:hover {
 		color: $colorMain;
 		background: white;
-		transition: all .5s ease;
+		transition: all 0.5s ease;
 	}
 	&__primary {
 		color: white;
@@ -20,4 +20,13 @@
 		color: $colorAccent;
 		background: rgba(44, 130, 253, 0.15);
 	}
+}
+
+// title
+.title {
+	font-weight: 700;
+	font-size: 42px;
+	line-height: 110%;
+	letter-spacing: -0.03em;
+	color: $colorMain;
 }
