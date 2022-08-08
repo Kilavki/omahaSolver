@@ -22,7 +22,10 @@
 			height: 444px;
 		}
 		@media (max-width: $breakPoint480) {
-			height: 462px;
+			height: 67vw;
+		}
+		@media (max-width: 320px) {
+			height: 110vw;
 		}
 
 		&_img {
@@ -44,7 +47,7 @@
 			}
 			@media (max-width: $breakPoint480) {
 				width: 106%;
-				top: 120px;
+				top: 25vw;
 			}
 		}
 	}
@@ -52,7 +55,7 @@
 	&__content {
 		padding: 73px 0 0 40px;
 		@media (max-width: $breakPoint480) {
-			padding-left: 10px;
+			padding-left: 0px;
 		}
 	}
 
@@ -62,20 +65,29 @@
 			margin-top: 60px;
 		}
 		@media (max-width: $breakPoint480) {
-			margin-top: 40px;
+			margin-top: 8.3vw;
+			text-align: center;
 		}
 	}
 
 	&__buttons {
 		margin-top: 50px;
 		@media (max-width: $breakPoint480) {
-			margin-top: 60px;
+			display: flex;
+			flex-direction: column;
+			flex-wrap: wrap;
+			align-items: center;
+			justify-content: center;
+			margin-top: 12.5vw;
 		}
 		&_span {
 			margin: 0 14px;
 			font-size: 20px;
 			line-height: 145%;
 			color: rgba(255, 255, 255, 0.35);
+			@media (max-width: $breakPoint480) {
+				margin: 14px 0;
+			}
 		}
 	}
 
@@ -85,7 +97,7 @@
 	&__text {
 		margin-top: 42px;
 		@media (max-width: $breakPoint480) {
-			margin-top: 52px;
+			margin-top: 12.5vw;
 		}
 	}
 }
@@ -100,7 +112,7 @@
 		font-size: 62px;
 	}
 	@media (max-width: $breakPoint480) {
-		font-size: 44px;
+		font-size: 9.16vw;
 		line-height: 120%;
 	}
 }
@@ -112,6 +124,10 @@
 	line-height: 145%;
 	color: #aac0e0;
 	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	@media (max-width: $breakPoint480) {
+		font-size: 4.58vw;
+		text-align: center;
+	}
 }
 
 .gradient-hero {
