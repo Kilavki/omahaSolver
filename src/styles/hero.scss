@@ -15,6 +15,16 @@
 		right: 0px;
 		bottom: 0;
 		overflow: hidden;
+		@media (max-width: $breakPoint992) {
+			height: 490px;
+		}
+		@media (max-width: $breakPoint768) {
+			height: 444px;
+		}
+		@media (max-width: $breakPoint480) {
+			height: 462px;
+		}
+
 		&_img {
 			position: absolute;
 			width: 660px;
@@ -22,19 +32,45 @@
 			right: -28px;
 			height: auto;
 			z-index: 2;
+			@media (max-width: $breakPoint1200) {
+				width: 620px;
+				top: 88px;
+			}
+			@media (max-width: $breakPoint992) {
+				width: 72%;
+			}
+			@media (max-width: $breakPoint768) {
+				width: 80%;
+			}
+			@media (max-width: $breakPoint480) {
+				width: 106%;
+				top: 120px;
+			}
 		}
 	}
 
 	&__content {
 		padding: 73px 0 0 40px;
+		@media (max-width: $breakPoint480) {
+			padding-left: 10px;
+		}
 	}
 
 	&__title {
 		margin-top: 106px;
+		@media (max-width: $breakPoint768) {
+			margin-top: 60px;
+		}
+		@media (max-width: $breakPoint480) {
+			margin-top: 40px;
+		}
 	}
 
 	&__buttons {
 		margin-top: 50px;
+		@media (max-width: $breakPoint480) {
+			margin-top: 60px;
+		}
 		&_span {
 			margin: 0 14px;
 			font-size: 20px;
@@ -48,6 +84,9 @@
 
 	&__text {
 		margin-top: 42px;
+		@media (max-width: $breakPoint480) {
+			margin-top: 52px;
+		}
 	}
 }
 
@@ -56,6 +95,14 @@
 	font-size: 72px;
 	line-height: 95%;
 	color: #ffffff;
+	@media (max-width: $breakPoint992) {
+		max-width: 100%;
+		font-size: 62px;
+	}
+	@media (max-width: $breakPoint480) {
+		font-size: 44px;
+		line-height: 120%;
+	}
 }
 
 .text-hero {
@@ -82,4 +129,12 @@
 	);
 	opacity: 0.75;
 	z-index: 1;
+	@media (max-width: $breakPoint1200) {
+		left: 300px;
+		top: 260px;
+	}
+	@media (max-width: $breakPoint992) {
+		left: 100px;
+		top: 100px;
+	}
 }
