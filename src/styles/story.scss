@@ -1,7 +1,9 @@
 .story {
 	&__wrapper {
+		position: relative;
 		display: flex;
 		align-items: center;
+		z-index: 3;
 	}
 
 	&__video {
