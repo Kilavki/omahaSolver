@@ -68,9 +68,9 @@
 	font-size: 28px;
 	line-height: 110%;
 	color: $colorMain;
-	@media (max-width: $breakPoint768) {
-		// font-size: 8vw;
-	}
+	// @media (max-width: $breakPoint576) {
+	// 	font-size: 8vw;
+	// }
 }
 
 .text-story {

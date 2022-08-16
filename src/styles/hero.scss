@@ -111,7 +111,7 @@
 	}
 	@media (max-width: $breakPoint576) {
 		margin-top: 20px;
-		font-size: 8vw;
+		font-size: max(8vw, 28px);
 		line-height: 110%;
 	}
 }
